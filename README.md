@@ -8,7 +8,8 @@
 
 ### Why Yara?
   The first reaction to reach the goal is to invent a complex algorithm, but that's too "expensive", and who knows what the outcome will be? So why not try an existing technique,
-  Yara was invented to identify binary malwares, but its powerful capabilities of RegEx and string analysis also can be applied to identify the signatures of Web Applications.
+  Yara was invented to identify binary malwares, and it works well when used to idenfity Web Application malwares, so, Yara's powerful capabilities of RegEx and string analysis 
+  also can be applied to identify the signatures of Web Applications.
 
 
  
