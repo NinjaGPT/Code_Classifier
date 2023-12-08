@@ -3,9 +3,9 @@
 Install and Config: https://yara.readthedocs.io/en/v4.4.0/gettingstarted.html
 Writing Yara Rules: https://yara.readthedocs.io/en/v4.4.0/writingrules.html
 Open Source Rules : https://github.com/Yara-Rules/rules
-Yara with Python. : https://www.cnblogs.com/lsdb/p/14977924.html
-Malware Detection : https://www.anquanke.com/post/id/211501
-Regular Expression: https://zh.javascript.info/regular-expressions
+Using from Python : https://yara.readthedocs.io/en/stable/yarapython.html
+Regular Expression: https://javascript.info/regular-expressions, https://www.regular-expressions.info/
+Malware Detection : https://www.sentinelone.com/blog/yara-hunting-for-code-reuse-doppelpaymer-ransomware-dridex-families/
 ```
 
 
