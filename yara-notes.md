@@ -54,6 +54,17 @@ Mandatory arguments to long options are mandatory for short options too.
 Send bug reports and suggestions to: vmalvarez@virustotal.com.
 
 ```
+#### -t,  --tag=TAG   
+>In the YARA command line, the -t argument is used to specify TAG so that only the rules that match the given TAGs are printed and the rest are ignored. Here are some examples of using the -t parameter:
+
+>Apply rules with specific TAGs:
+If you want to apply the rules defined in /foo/bar/rules to a file named bazfile, but only want to report the rules tagged as "Packer" or "Compiler", you can use the following command:
+```
+yara -t Packer -t Compiler /foo/bar/rules malware
+```
+>This command executes the rules in the /foo/bar/rules file, but only reports the results of those rules tagged as "Packer" or "Compiler".
+Using the -t parameter helps you filter and focus on specific types of threats or characteristics, making the analysis more efficient and targeted. This is especially useful when dealing with a large number of YARA rules and different types of malware.
+ 
 ### A simple rule:
 ```
 chris@labs yara_rules % cat rule1.yar
