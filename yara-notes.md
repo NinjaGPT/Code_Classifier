@@ -234,6 +234,71 @@ https://yara.readthedocs.io/en/latest/writingrules.html#conditions
 //the string $a must be found at an offset between 0 and 100, while string $b must be at an offset between 100 and the end of the file.
 ```
 
+* SETS of STRINGS
+>https://yara.readthedocs.io/en/latest/writingrules.html#sets-of-strings-1
+```
+2 of ($a,$b,$c)
+
+2 of ($foo*)  // equivalent to 2 of ($foo1,$foo2,$foo3)
+
+3 of ($foo*,$bar1,$bar2)
+
+1 of them // equivalent to 1 of ($*)
+
+all of them       // all strings in the rule
+any of them       // any string in the rule
+all of ($a*)      // all strings whose identifier starts by $a
+any of ($a,$b,$c) // any of $a, $b or $c
+1 of ($*)         // same that "any of them"
+none of ($b*)     // zero of the set of strings that start with "$b"
+```
+* Same Condition to many strings
+>https://yara.readthedocs.io/en/latest/writingrules.html#applying-the-same-condition-to-many-strings
+
+#### for expression of string_set : ( boolean_expression )
+```
+And its meaning is: from those strings in string_set at least expression of them must satisfy boolean_expression.
+
+In other words: boolean_expression is evaluated for every string in string_set and there must be at least expression of them returning True.
+
+use a dollar sign ($) as a place-holder 
+
+for any of ($a,$b,$c) : ( $ )
+
+for all of them : ( # > 3 )
+
+for all of ($a*) : ( @ > @b )
+
+```
+* anonymous string with 'of'
+```
+    strings:
+        $ = "dummy1"
+        $ = "dummy2"
+
+    condition:
+        1 of them
+```
+* for ... in
+```
+for any k,v in some_dict : ( k == "foo" and v == "bar" )
+
+
+for <quantifier> <variables> in <iterable> : ( <some condition using the loop variables> )
+
+Where <quantifier> is either any, all or an expression that evaluates to the number of items in the iterator that must satisfy the condition, <variables> is a comma-separated list of variable names that holds the values for the current item (the number of variables depend on the type of <iterable>) and <iterable> is something that can be iterated.
+
+
+```
+* Referencing other rules
+```
+$a and Rule1
+
+any of (Rule*)
+```
+
+
+
 
 
 
