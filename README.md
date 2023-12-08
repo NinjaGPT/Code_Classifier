@@ -1,5 +1,5 @@
 # Code Classifier
-#### Similar Vulnerable Code Identification
+#### Similar Vulnerable Code Identification and Merging.
 ----
 ### What i am doing?
   There are some identical signatures between vulnerable Web Application implement, i am tring to summary the signatures and making the same type of vulnerable code into a set.
