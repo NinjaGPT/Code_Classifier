@@ -296,18 +296,17 @@ for any s in ("71b36345516e076a0663e0bea97759e4", "1e7f7edeb06de02f2c2a9319de99e
 ```
 * for ... in
 ```
+for <quantifier> <variables> in <iterable> : ( <some condition using the loop variables> )
+
+Where <quantifier> is either any, all or an expression that evaluates to the number of items in the iterator that must satisfy the condition, <variables> is a comma-separated list of variable names that holds the values for the current item (the number of variables depend on the type of <iterable>) and <iterable> is something that can be iterated.
+
 for any k,v in some_dict : ( k == "foo" and v == "bar" )
 
 for all i in (1..3) : ( @a[i] + 10 == @b[i] )
 
 for all i in (1..#a) : ( @a[i] < 100 
-
-for <quantifier> <variables> in <iterable> : ( <some condition using the loop variables> )
-
-Where <quantifier> is either any, all or an expression that evaluates to the number of items in the iterator that must satisfy the condition, <variables> is a comma-separated list of variable names that holds the values for the current item (the number of variables depend on the type of <iterable>) and <iterable> is something that can be iterated.
-
-
 ```
+
 * Referencing other rules
 ```
 $a and Rule1
