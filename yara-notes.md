@@ -61,6 +61,9 @@ Send bug reports and suggestions to: vmalvarez@virustotal.com.
 If you want to apply the rules defined in /foo/bar/rules to a file named bazfile, but only want to report the rules tagged as "Packer" or "Compiler", you can use the following command:
 ```
 yara -t Packer -t Compiler /foo/bar/rules malware
+
+e.g:
+yara -r -t file_upload_bypass ./rules/*.yar  ../../../Java_Vulns/file_upload/
 ```
 >This command executes the rules in the /foo/bar/rules file, but only reports the results of those rules tagged as "Packer" or "Compiler".
 Using the -t parameter helps you filter and focus on specific types of threats or characteristics, making the analysis more efficient and targeted. This is especially useful when dealing with a large number of YARA rules and different types of malware.
