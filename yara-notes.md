@@ -331,11 +331,11 @@ rule test
 		ext_var == 1
 }
 
-commend line$ yara -d ext_var=1 test.yar ./xxx/
+CMD-LINE$ yara -d ext_var=1 test.yar ./xxx/
 
-using with other operators:
+-=== USING WITH OTHER OPERATORS ===-
 
- string_ext_var contains "text"
+string_ext_var contains "text"
 
 string_ext_var icontains "text"
 
