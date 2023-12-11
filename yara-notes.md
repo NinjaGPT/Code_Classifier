@@ -4,6 +4,7 @@ Install and Config: https://yara.readthedocs.io/en/v4.4.0/gettingstarted.html
 Writing Yara Rules: https://yara.readthedocs.io/en/v4.4.0/writingrules.html
 Open Source Rules : https://github.com/Yara-Rules/rules
 Using from Python : https://yara.readthedocs.io/en/stable/yarapython.html
+The C-language API: https://yara.readthedocs.io/en/latest/capi.html
 Regular Expression: https://javascript.info/regular-expressions, https://www.regular-expressions.info/
 Malware Detection : https://www.sentinelone.com/blog/yara-hunting-for-code-reuse-doppelpaymer-ransomware-dridex-families/
 ```
@@ -11,6 +12,8 @@ Malware Detection : https://www.sentinelone.com/blog/yara-hunting-for-code-reuse
 
 ###  Command Line:
 ```
+guide: https://yara.readthedocs.io/en/latest/commandline.html
+
 chris@labs yara_rules % yara --help
 
 YARA 4.3.2, the pattern matching swiss army knife.
@@ -297,7 +300,7 @@ for any s in ("71b36345516e076a0663e0bea97759e4", "1e7f7edeb06de02f2c2a9319de99e
     condition:
         1 of them
 ```
-* for ... in
+#### for ... in
 ```
 for <quantifier> <variables> in <iterable> : ( <some condition using the loop variables> )
 
@@ -310,7 +313,7 @@ for all i in (1..3) : ( @a[i] + 10 == @b[i] )
 for all i in (1..#a) : ( @a[i] < 100 
 ```
 
-* Referencing other rules
+#### Referencing other rules
 ```
 $a and Rule1
 
@@ -320,6 +323,47 @@ rule a1 { condition: true }
 rule a2 { condition: true }
 rule x { condition: 1 of (a*) }
 ```
+#### External variables
+```
+rule test
+{
+	condition:
+		ext_var == 1
+}
+
+commend line$ yara -d ext_var=1 test.yar ./xxx/
+
+using with other operators:
+
+ string_ext_var contains "text"
+
+string_ext_var icontains "text"
+
+string_ext_var startswith "prefix"
+
+string_ext_var endswith "suffix"
+
+string_ext_var iequals "string"
+
+string_ext_var matches /[a-z]+/
+
+```
+#### Including files
+```
+include "../includes/other.yar"
+include "/home/plusvic/yara/includes/other.yar"
+```
+#### Modules
+```
+https://yara.readthedocs.io/en/latest/modules.html#modules
+```
+#### Writing your own modules
+```
+https://yara.readthedocs.io/en/latest/writingmodules.html#
+```
+
+
+
 
 
 
