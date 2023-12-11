@@ -280,6 +280,10 @@ for all of them : ( # > 3 )
 
 for all of ($a*) : ( @ > @b )
 
+for any of ($a,$b,$c) : ( $ at pe.entry_point  )
+
+for any s in ("71b36345516e076a0663e0bea97759e4", "1e7f7edeb06de02f2c2a9319de99e033") : ( pe.imphash() == s )
+
 ```
 * anonymous string with 'of'
 ```
@@ -294,6 +298,9 @@ for all of ($a*) : ( @ > @b )
 ```
 for any k,v in some_dict : ( k == "foo" and v == "bar" )
 
+for all i in (1..3) : ( @a[i] + 10 == @b[i] )
+
+for all i in (1..#a) : ( @a[i] < 100 
 
 for <quantifier> <variables> in <iterable> : ( <some condition using the loop variables> )
 
@@ -306,6 +313,10 @@ Where <quantifier> is either any, all or an expression that evaluates to the num
 $a and Rule1
 
 any of (Rule*)
+
+rule a1 { condition: true }
+rule a2 { condition: true }
+rule x { condition: 1 of (a*) }
 ```
 
 
