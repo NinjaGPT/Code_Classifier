@@ -1,7 +1,7 @@
-# 步骤1 - PROMPT:
-#### 把近似漏洞代码对应的POC附带作为PROMPT一部分，详细阐明要求
-#### 注意这里结构是 requirement + vulnerable code + PoC samples + requirement
-#### 最后的requirement很重要
+# Step 1 - PROMPT:
+#### Make similar vulnerable code's PoC as the part of Prompt, and descript your requirements.
+#### Prompt structure is: requirement + vulnerable code + PoC samples + requirement
+#### Last requirement is important.
 ----
 """
 
@@ -220,7 +220,7 @@ else:
 show python code anyway! this is the most important, assume host is http://vulnerable.host/, please write python script for POC, #### Proof of Concept： as reference, you MUST write the same implement, it might includes one or more of POC scripts, i need all of them.
 
 ----
-# 步骤2 - 提交精心准备的prompt给GPT，可生成可用POC
+# Step 2 - Sending crafted Prompt to GPT, generating exploitable PoC. 
 ```
 chris@labs poc % python3 CallGPT.py
 Sending Prompt to GPT ...
