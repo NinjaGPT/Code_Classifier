@@ -8,3 +8,5 @@ Usage: extract_method_Impl.py  <CodeFile>  <MethodName>
 * same_vuln_poc_as_prompt.md:  
 >make similar vulnerable code's PoC as part of Prompt and sending to GPT, will generate exploitable PoC.
 
+* stringbuilder_to_sql_struct.md:
+>crafting Prompt to let GPT to convert Java code of StringBuilder model SQL joint to Python code, and print final SQL struct.
