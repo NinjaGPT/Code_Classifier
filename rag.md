@@ -21,6 +21,9 @@ https://aibard123.com/digest/2023/1207/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%A1%8C%E4%B
 [+] RAG应用12种调优策略
 https://www.learnprompt.pro/article/rag-optimise
 https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications-7ca646833439#a5e2
+
+[+] Advanced RAG series: Indexing
+https://mp.weixin.qq.com/s/io6OJ_vsSNDkIlLCGJl_5A
 ```
 在 RAG 中，`事实性知识`与 LLM 的`推理能力`相分离，被存储在**容易访问** 和 **及时更新**的外部知识源中
 
