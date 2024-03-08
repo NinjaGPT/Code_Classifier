@@ -24,6 +24,15 @@ https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-re
 
 [+] Advanced RAG series: Indexing
 https://mp.weixin.qq.com/s/io6OJ_vsSNDkIlLCGJl_5A
+
+[+] RAG 应用案例
+https://www.learnprompt.pro/article/rag-devvai
+
+[+] RAG高阶技巧
+https://zhuanlan.zhihu.com/p/680232507
+
+[+] Local RAG API building
+https://otmaneboughaba.com/posts/local-rag-api/
 ```
 在 RAG 中，`事实性知识`与 LLM 的`推理能力`相分离，被存储在**容易访问** 和 **及时更新**的外部知识源中
 
