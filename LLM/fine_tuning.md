@@ -27,6 +27,9 @@ https://openai.xiniushu.com/docs/guides/fine-tuning
 [+] Understanding Fine Tuning
 https://blog.csdn.net/qq_45652492/article/details/123379156
 
+[+] Custom Model via LangChain & Fine Tune  
+https://blog.csdn.net/m0_66076989/article/details/135346212
+
 ```
 ---
 ## [***] Supervised & Unsupervised (训练数据来源与特点分类)：
