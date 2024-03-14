@@ -19,7 +19,8 @@ https://note.iawen.com/note/llm/finetune
 [+] How to FT?
 https://pytorch-tutorial.readthedocs.io/en/latest/tutorial/chapter04_advanced/4_1_fine-tuning/
 
-[+] FT with GPT-3.5
+[+] FT with GPT
+https://mp.weixin.qq.com/s/jwL_j-qSjEcpT0yWtBtHYA
 https://blog.csdn.net/gerouhsius/article/details/135582250
 https://openai.xiniushu.com/docs/guides/fine-tuning
 
