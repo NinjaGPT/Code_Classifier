@@ -7,6 +7,9 @@ https://www.appen.com.cn/blog/fine-tuning/
 [+] Fine Tune Introduction
 https://www.wehelpwin.com/article/4231
 
+[+] Understanding Fine Tuning
+https://blog.csdn.net/qq_45652492/article/details/123379156
+
 [+] Fine Tuning All in One
 https://blog.csdn.net/Julialove102123/article/details/135700402
 
@@ -21,13 +24,10 @@ https://pytorch-tutorial.readthedocs.io/en/latest/tutorial/chapter04_advanced/4_
 
 [+] FT with GPT
 https://platform.openai.com/docs/guides/fine-tuning
+https://openai.xiniushu.com/docs/guides/fine-tuning
 https://platform.openai.com/docs/api-reference/fine-tuning
 https://mp.weixin.qq.com/s/jwL_j-qSjEcpT0yWtBtHYA
 https://blog.csdn.net/gerouhsius/article/details/135582250
-https://openai.xiniushu.com/docs/guides/fine-tuning
-
-[+] Understanding Fine Tuning
-https://blog.csdn.net/qq_45652492/article/details/123379156
 
 [+] Custom Model via LangChain & Fine Tune  
 https://blog.csdn.net/m0_66076989/article/details/135346212
