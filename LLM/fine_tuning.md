@@ -20,6 +20,8 @@ https://note.iawen.com/note/llm/finetune
 https://pytorch-tutorial.readthedocs.io/en/latest/tutorial/chapter04_advanced/4_1_fine-tuning/
 
 [+] FT with GPT
+https://platform.openai.com/docs/guides/fine-tuning
+https://platform.openai.com/docs/api-reference/fine-tuning
 https://mp.weixin.qq.com/s/jwL_j-qSjEcpT0yWtBtHYA
 https://blog.csdn.net/gerouhsius/article/details/135582250
 https://openai.xiniushu.com/docs/guides/fine-tuning
