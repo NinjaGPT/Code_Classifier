@@ -34,7 +34,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 
 ```
 ---
-## [***] Supervised & Unsupervised (训练数据来源与特点分类)：
+## [ ⚠️ ] Supervised & Unsupervised (训练数据来源与特点分类)：
 ### 监督式微调 SFT(Supervised Fine Tuning)
   用人工标注的数据，用传统机器学习中监督学习的方法，对大模型进行微调；
   
@@ -45,7 +45,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
   跟RLHF类似，但是反馈的来源是AI。这里是想解决反馈系统的效率问题，因为收集人类反馈，相对来说成本会比较高、效率比较低
 
 ---
-## [***] 微调预训练模型的方法：
+## [ ⚠️ ] 微调预训练模型的方法：
 • 微调所有层：将预训练模型的所有层都参与微调，以适应新的任务。
 
 • 微调顶层：只微调预训练模型的顶层，以适应新的任务。
@@ -57,7 +57,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 • 迁移学习：将预训练模型的知识迁移到新的任务中，以提高模型性能。这种方法通常使用微调顶层或冻结底层的方法。
 
 ---
-## [***] Full Fine Tuning (全参数微调)
+## [ ⚠️ ] Full Fine Tuning (全参数微调)
 以BERT模型为代表的“预训练语言模型 + 下游任务微调”训练模式成为了自然语言处理研究和应用的新范式。此处的下游任务微调是基于模型全量参数进行微调。
 以 ChatGPT 为代表的预训练语言模型（PLM）规模变得越来越大，在消费级硬件上进行全量微调（Full Fine-Tuning）变得不可行。
 此外，为每个下游任务单独存储和部署微调模型变得非常昂贵，因为微调模型与原始预训练模型的大小相同。
@@ -66,7 +66,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 
 ---
 
-## [***] Parameter-Efficient Fine-Tuning (PEFT, 参数高效微调) / "Repurposing" 部分微调
+## [ ⚠️ ] Parameter-Efficient Fine-Tuning (PEFT, 参数高效微调) / "Repurposing" 部分微调
     REFERENCE: Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning: https://arxiv.org/pdf/2303.15647.pdf
     
   ![Alt xxx](https://img-blog.csdnimg.cn/direct/d46aa699d7954cb592059b737490d54a.png)
@@ -92,7 +92,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 ```
 
 ---
-## [***] 常见PEFT技术介绍
+## [ ⚠️ ] 常见PEFT技术介绍
 ### BitFit
   对微调机制的一种积极探索，也很简单，通过仅调整bias效果就能有不错的效果，但没有具体阐述原理，就是通过猜测加实验得到的结果。
   同时，作者提出一个观点：微调的过程不是让模型适应另外的数据分布，而是让模型更好的应用出本身的表征能力。
@@ -175,7 +175,7 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 特点：相对于LoRA，BitFit，Prefix-tuning，训练的参数量更大；同时，推理更耗时；并且，输入会占用额外的序列长度。 多种PELT 方法的混合涉及PLM 的不同部分对模型有效性和鲁棒性都有好处。
 ```
 ---
-## [***] Fine Tuning Process Summary:
+## [ ⚠️ ] Fine Tuning Process Summary:
 大模型微调如上文所述有很多方法，并且对于每种方法都会有不同的微调流程、方式、准备工作和周期。然而大部分的大模型微调，都有以下几个主要步骤，并需要做相关的准备：
 
 ### 准备数据集：
