@@ -1,7 +1,7 @@
 import openai
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-XX'
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 def get_completion(prompt, model="gpt-4-1106-preview"):
