@@ -7,7 +7,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.embeddings import OpenAIEmbeddings
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-XX'
 
 file = 'ok.csv'
 loader = CSVLoader(file_path=file)
