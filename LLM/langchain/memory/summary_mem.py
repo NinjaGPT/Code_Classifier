@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 import os
 
 def __init_env__():
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = 'sk-XX'
 
 __init_env__()
 
