@@ -8,7 +8,7 @@ from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.evaluation.qa import QAGenerateChain
 from langchain.evaluation.qa import QAEvalChain
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-XX'
 #langchain.debug = True
 warnings.filterwarnings("ignore")
 
