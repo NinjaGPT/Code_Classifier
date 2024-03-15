@@ -45,14 +45,14 @@ https://otmaneboughaba.com/posts/local-rag-api/
 ![Alt](https://baoyu.io/images/rag/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation/1_kSkeaXRvRzbJ9SrFZaMoOg.webp)
 > 检索增强生成（RAG）的工作流程，从用户的查询开始，经过向量数据库的检索，到提示填充，最后生成回应。
 
-* RAG 工作流程
+### [ ⚠️ ] RAG 工作流程
 ```
 1.检索： 此过程涉及利用用户的查询内容，从外部知识源获取相关信息。具体来说，就是将用户的查询通过嵌入模型转化为向量，以便与向量数据库中的其他上下文信息进行比对。通过这种相似性搜索，可以找到向量数据库中最匹配的前 k 个数据。
 2.增强： 接着，将用户的查询和检索到的额外信息一起嵌入到一个预设的提示模板中。
 3.生成： 最后，这个经过检索增强的提示内容会被输入到大语言模型 (LLM) 中，以生成所需的输出。
 
 ```
-* RAG典型调用模式
+### [ ⚠️ ] RAG典型调用模式
 ```
 模式一：非结构化数据通过Embedding Model把非结构化数据进行embedding存到向量数据库中，然后形成Construct Prompts给到LLM。LLM返回结果给到用户。
 
