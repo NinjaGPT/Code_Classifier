@@ -6,7 +6,7 @@ from langchain.llms import OpenAI
 
 
 def __init_env__():
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = 'sk-XX'
 
 __init_env__()
 llm = ChatOpenAI(temperature=0.0)
