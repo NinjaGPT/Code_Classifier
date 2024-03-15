@@ -9,7 +9,7 @@ from langchain.tools.python.tool import PythonREPLTool
 from langchain.chat_models import ChatOpenAI
 
 # langchain==0.0.250
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-XX'
 
 llm = ChatOpenAI(temperature=0)
 
