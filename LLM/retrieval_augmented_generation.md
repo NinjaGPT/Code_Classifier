@@ -31,6 +31,9 @@ https://www.learnprompt.pro/article/rag-devvai
 [+] RAG高阶技巧
 https://zhuanlan.zhihu.com/p/680232507
 
+[+] RAG高级技巧 - 生成&评估
+https://mp.weixin.qq.com/s/b1cTO6KCWSI6h2OQVpiU5Q
+
 [+] Local RAG API building
 https://otmaneboughaba.com/posts/local-rag-api/
 ```
