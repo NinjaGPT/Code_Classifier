@@ -32,6 +32,9 @@ https://blog.csdn.net/gerouhsius/article/details/135582250
 [+] Custom Model via LangChain & Fine Tune  
 https://blog.csdn.net/m0_66076989/article/details/135346212
 
+[+] PyTorch Tutorial
+https://github.com/yunjey/pytorch-tutorial
+https://github.com/zergtant/pytorch-handbook
 ```
 ---
 ## [ ⚠️ ] Supervised & Unsupervised (训练数据来源与特点分类)：
