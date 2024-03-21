@@ -1,5 +1,6 @@
 # Fine Tuning
 ---
+* ARTICLE
 ```
 [+] What's Fine Tune?
 https://www.appen.com.cn/blog/fine-tuning/
@@ -35,6 +36,26 @@ https://blog.csdn.net/m0_66076989/article/details/135346212
 [+] PyTorch Tutorial
 https://github.com/yunjey/pytorch-tutorial
 https://github.com/zergtant/pytorch-handbook
+```
+* VIDEO
+```
+[+] 10分钟教你如何做chatGPT微调Fine-Tune
+https://www.youtube.com/watch?v=TTrYhNRUpwo
+
+[+] 提示词、RAG、微调
+https://www.youtube.com/watch?v=P1iob2uKFrg&t=1220s
+
+[+] 大语言模型微调之道 - 系列教程 （deeplearning.ai）
+https://www.youtube.com/playlist?list=PLiuLMb-dLdWKtPM1YahmDHOjKN_a2Uiev
+
+[+] OpenAI fine-tuning no need coding
+https://www.youtube.com/watch?v=yyfsCLku1_s
+
+[+] Fine Tuning GPT
+https://www.youtube.com/watch?v=5vvtohsuo6A
+
+[+] LLAMA2 Fine Tuning
+https://www.youtube.com/watch?v=LslC2nKEEGU
 ```
 ---
 ## [ ⚠️ ] Supervised & Unsupervised (训练数据来源与特点分类)：
