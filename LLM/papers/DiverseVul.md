@@ -17,8 +17,10 @@
 ```
 * Model参数比较
   
-![image](https://github.com/NinjaGPT/papers/assets/4035112/09269f74-347e-476b-a072-f15de94a1a59)
+<img width="683" alt="image" src="https://github.com/NinjaGPT/Code_Classifier/assets/4035112/377f3cd1-1a8b-48d0-b78a-bc9b5212bd77">
+
 
 * 不同CWE学习难度不同，与训练数据大小无关
   
-![image](https://github.com/NinjaGPT/papers/assets/4035112/8d1bd5da-e7af-496e-b159-b1168fd5ec04)
+![image](https://github.com/NinjaGPT/Code_Classifier/assets/4035112/33c51ccf-d07e-47d2-864c-aebd908f9397)
+
