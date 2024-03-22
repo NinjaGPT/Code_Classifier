@@ -1,5 +1,6 @@
 # DiverseVul
 ### A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection
+https://arxiv.org/pdf/2304.00409.pdf
 ---
 ```
 1. LLM优于GNN（如ReVeal Model），数据集越大LLM优势越大，小数据集没有优势
