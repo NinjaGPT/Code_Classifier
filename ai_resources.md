@@ -1,24 +1,24 @@
 # AI Resource
 ---
-### Prompt Engineering
+## [ ⚠️ ] Prompt Engineering
 ```
 https://www.promptingguide.ai/zh
 https://promptbase.com/
 ```
 
-### Fine Tune
+## [ ⚠️ ] Fine Tune
 ```
 https://github.com/NinjaGPT/llm_power/blob/main/LLM/fine_tuning.md
 
 ```
 
-### RAG
+## [ ⚠️ ] RAG
 ```
 https://github.com/NinjaGPT/llm_power/blob/main/LLM/retrieval_augmented_generation.md
 
 ```
 
-### LangXXX Series 
+## [ ⚠️ ] LangXXX Series 
 
 **LangChain**
 ```
@@ -36,7 +36,7 @@ https://langchain-ai.github.io/langgraph/tutorials/
 
 ```
 
-### Deployment
+## [ ⚠️ ] Deployment
 ```
 https://github.com/NinjaGPT/llm_power/blob/main/LLM/build_local_llm.md
 
