@@ -43,7 +43,7 @@ https://github.com/NinjaGPT/llm_power/blob/main/LLM/build_local_llm.md
 
 ```
 
-## Deep Learning
+## [ ⚠️ ] Deep Learning
 ```
 https://www.youtube.com/watch?v=wjZofJX0v4M
 ```
